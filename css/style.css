@@ -20,7 +20,7 @@ body {
 .header__logo{
     margin: 0.8rem;
     height: 5%;
-    width: 15%;
+    width: 10%;
 }
 
 .header__input{
@@ -55,10 +55,10 @@ body {
     display: flex;
     flex-direction: column;
     margin: 2% 10% 0% 10%;
-    height: 20%;
+    height: 2%;
     width: 100% ;
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 100;
     
 }
 
@@ -82,7 +82,7 @@ body {
 }
 
 .fa-lightbulb{
-    margin-right: 5%;
+    margin-right: 15%;
 }
 
 .banner{
@@ -102,7 +102,7 @@ body {
     margin-top: 5%;
     margin-bottom: 2%;
     margin-left: 1%;
-    font-size: 18px;
+    font-size: 24px;
     font-weight: 500;
     color: var(--secondary-color);
     text-decoration: none;
@@ -148,8 +148,9 @@ body {
 .card__title{
     font-size: 14px;
     margin-left: 4%;
-    margin-top: 2%;
-    font-weight: 100;
+    margin-top: 4%;
+    font-weight: 700;
+    text-align: center;
 }
 
 .card__subtitle{
@@ -176,11 +177,11 @@ body {
 }
 
 .footer__icons{
-    color: var(--white);
-    margin-left: 8%;
+    margin-left: 50px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;    
+    justify-content: space-around;  
+    gap: 30px;  
 
 }
 

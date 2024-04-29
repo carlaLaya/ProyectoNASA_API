@@ -254,7 +254,7 @@ body {
  
 
 
-@media screen and (max-width: 526px){
+@media screen and (max-width: 486px){
 
     body {
         display: flex;
@@ -267,9 +267,10 @@ body {
     }
 
     .header__logo{
-        margin: 0.8rem;
+        margin: 0.5rem;
         height: 1%;
-        width: 30%;
+        width: 10%;
+        display: none;
     }
     
     .header__input{

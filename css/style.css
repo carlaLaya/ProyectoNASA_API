@@ -18,9 +18,9 @@ body {
 }
 
 .header__logo{
-    margin: 0.8rem;
+    margin: 10px;
     height: 5%;
-    width: 10%;
+    width: 7%;
 }
 
 .header__input{
@@ -170,33 +170,16 @@ body {
     flex-direction: row;
     align-self: flex-end;
     width: 100%;
-    height: 8vh;
-    background-color: var(--main-color);;
+    height: 4vh;
+    background-color: #7B78E5;
     justify-content: space-between;
     align-items: center;
     position: fixed;
+    color: var(--secondary-color);
 }
 
-.footer__icons{
-    margin-left: 50px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;  
-    gap: 30px;  
 
-}
 
-.fa-twitter{
-    margin-left: 50%;
-    margin-right: 50%;
-}
-
-.footer__text{
-    margin-right: 3%;
-    font-size: 14px;
-    font-weight: 300;
-
-}
 
 
  
